@@ -88,8 +88,6 @@ function getRandomNumber(min, max) {
 function generateQuestion() {
   let availableActivities = activities;
 
-  console.log(availableActivities);
-  console.log(filters);
 
   filters.forEach((filter) => {
     availableActivities = availableActivities.filter((x) =>
@@ -102,7 +100,7 @@ function generateQuestion() {
     console.log("hello", result);
     result.innerText = availableActivities[index].name;
 
-    console.log("ACTIVITY", availableActivities[index].name);
+   
   }
 }
 
