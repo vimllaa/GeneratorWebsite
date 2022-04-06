@@ -110,7 +110,7 @@ let fun = document.getElementById("fun");
 fun.addEventListener("click", function () {
   filters = [];
   filters.push("fun");
-  console.log("Now FUN is happening");
+  
   funClicked = !funClicked;
 });
 
@@ -118,7 +118,7 @@ let connection = document.getElementById("connection");
 connection.addEventListener("click", function () {
   filters = [];
   filters.push("connection");
-  console.log("Now CONNECTION is happening");
+  
   connectionClicked = !connectionClicked;
 });
 
@@ -126,14 +126,14 @@ let work = document.getElementById("work");
 work.addEventListener("click", function () {
   filters = [];
   filters.push("work");
-  console.log("Now WORK is happening");
+
   workClicked = !workClicked;
 });
 
 let all = document.getElementById("all");
 all.addEventListener("click", function () {
   filters = [];
-  console.log("Now ALL is happening");
+
   allClicked = !allClicked;
 });
 
